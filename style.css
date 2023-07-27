@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Patua One", cursive;
+}
+body {
+   background-color: pink;
+}
+.header {
+   width: 100%;
+   height: 80px;
+   border-bottom: 1px solid black;
+   background-color: rgb(60, 212, 250);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 10%;
+}
+.logo{
+  width: 200px;
+  height: 90%;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 40%;
+}
+
+.container {
+   width: 80%;
+   height: 90vh;
+   /* background-color: rebeccapurple; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+.txt-ctn {
+   width: 45%;
+   height: 600px;
+   /* background-color: aqua; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: rgb(0, 0, 0);
+}
+.txt-ctn h1 {
+   font-size: 50px;
+   margin-bottom: 40px;
+}
+.txt-ctn p {
+   line-height: 20px;
+   font-weight: 30;
+}
+.msg-ctn {
+   width: 55%;
+   height: 580px;
+   background-color: goldenrod;
+   padding: 20px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid black;
+   margin: 0 20px;
+   text-align: center;
+  position: relative;
+
+}
+.msg-box {
+   width: 100%;
+   height: 90%;
+   background-color: rgb(60, 212, 250);
+   border-radius: 20px;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 25px;
+   padding: 50px;
+   /* position: relative; */
+}
+button {
+   padding: 15px 20px;
+   margin-top: 20px;
+   background-color: rgb(240, 60, 129);
+   font-size: 22px;
+   border-radius: 10px;
+   border: 1px solid black;
+   
+}
+#btnclear{
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  background-color:rgb(12, 206, 255);
+}
+button:hover{
+  cursor: pointer;
+  background-color: white;
+  color:  rgb(240, 60, 129);
+}
+#btnclear:hover{
+  color: white;
+}
